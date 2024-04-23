@@ -1,7 +1,7 @@
 
 const WorkCard = ({ item }) => {
     return (
-        <div style={{ backgroundImage: `url(${item.img})` }} className="shadow-md shadow-violet-600 group rounded-md flex justify-center text-center items-center content-div m-auto">
+        <div style={{ backgroundImage: `url(${item.img})` }} className="shadow-md max-w-[500px] shadow-violet-600 group rounded-md flex justify-center text-center items-center content-div m-auto">
             <div className="opacity-0 group-hover:opacity-100">
                 <p className="text-2xl font bold text-white tracking-wider ">
                     {item.name}

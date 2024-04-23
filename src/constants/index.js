@@ -50,5 +50,4 @@ export const technologies = [
 export const work = [
     { img: portfolio, github: "https://github.com/xyzu2000/portfolio", live: "https://bwp00.netlify.app", name: "Portfolio" },
     { img: sh, github: "https://github.com/xyzu2000/shoeli", live: "https://shoeli.netlify.app", name: "Nike" },
-
 ]
