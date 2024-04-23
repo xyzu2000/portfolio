@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar"
 import About from "./sections/About"
 import Contact from "./sections/Contact"
 import Experience from "./sections/Experience"
+import Home from "./sections/Home"
 import Work from "./sections/Work"
 
 const App = () => {
@@ -10,7 +11,10 @@ const App = () => {
     <main id="home">
       <Navbar />
       <Sidebar />
-      <section className="w-full flex items-center justify-center">
+      <section className="px-20">
+        <Home />
+      </section>
+      <section className="px-20">
         <About />
       </section>
       <section className="px-20">

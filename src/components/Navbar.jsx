@@ -13,17 +13,17 @@ const Navbar = () => {
             <div className=''>
                 <img src={b} alt="logo" width={40} height={40} />
             </div>
-            <ul className='flex gap-6  font-semibold text-white max-sm:hidden'>
+            <ul className='flex gap-6  font-semibold text-white max-lg:hidden'>
                 {navLinks.map((link) => (
                     <li key={link.label} className='hover:text-blue-300 active:text-blue-700 '>
                         <a href={link.href}>{link.label}</a>
                     </li>
                 ))}
             </ul>
-            <div className='sm:hidden cursor-pointer text-right bg-transparent'>
-                <img src={hamburger} alt="hamburger" width={30} height={30} onClick={handleOnClick} className='right-0 absolute' />
+            <div className='lg:hidden cursor-pointer text-right bg-transparent'>
+                <img src={hamburger} alt="hamburger" width={30} height={30} onClick={handleOnClick} className='right-0 absolute mr-5' />
                 {isOpen && (
-                    <ul className="bg-transparent bg-none flex flex-col gap-2 font-semibold text-white sm:hidden mt-10">
+                    <ul className="bg-transparent bg-none flex flex-col gap-2 lg font-semibold text-white lg:hidden mt-10">
                         {navLinks.map((link) => (
                             <li key={link.label} className='hover:text-blue-300 active:text-blue-700 bg-transparent'>
                                 <a href={link.href} className=''>{link.label}</a>
