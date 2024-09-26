@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import JS from "../assets/images/JS.svg";
 import css from "../assets/images/css.svg";
+import eduguide from "../assets/images/eduguide.png";
 import firebase from "../assets/images/firebase.svg";
 import gitIcon from "../assets/images/github.svg";
 import html from "../assets/images/html.svg";
@@ -50,4 +51,5 @@ export const technologies = [
 export const work = [
     { img: portfolio, github: "https://github.com/xyzu2000/portfolio", live: "https://bwp00.netlify.app", name: "Portfolio" },
     { img: sh, github: "https://github.com/xyzu2000/shoeli", live: "https://shoeli.netlify.app", name: "Nike" },
+    { img: eduguide, github: "https://github.com/xyzu2000/EduGuide", live: "https://eduguide-web.netlify.app/login", name: "EduGuide" },
 ]
